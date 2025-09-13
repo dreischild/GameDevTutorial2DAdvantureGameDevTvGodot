@@ -1,6 +1,6 @@
 [gd_scene load_steps=25 format=3 uid="uid://fxr3g5xqwyhx"]
 
-[ext_resource type="Script" uid="uid://dy6w4n8sb2qy7" path="res://Scenes/Player/player.gd" id="1_2nety"]
+[ext_resource type="Script" uid="uid://w84nckqi5pfi" path="res://Scenes/Player/Player.cs" id="1_a3d8c"]
 [ext_resource type="Texture2D" uid="uid://shsea7k7g5mb" path="res://Ninja Adventure - Asset Pack/Actor/Characters/Boy/SpriteSheet.png" id="2_a3d8c"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2nety"]
@@ -171,8 +171,7 @@ animations = [{
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_2nety")
-move_speed = 20.0
+script = ExtResource("1_a3d8c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_2nety")
@@ -180,4 +179,4 @@ shape = SubResource("CapsuleShape2D_2nety")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_jincj")
 animation = &"move_down"
-frame_progress = 0.63902
+frame_progress = 0.757199

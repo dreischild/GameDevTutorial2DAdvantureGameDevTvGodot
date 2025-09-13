@@ -9,4 +9,4 @@ zoom = Vector2(4.5, 4.5)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_2p8i2")]
 position = Vector2(71, -1)
-move_speed = 150.0
+moveSpeed = 150.0
